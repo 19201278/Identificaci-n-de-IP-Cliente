@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Información de la IP del Cliente</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    /* Estilo personalizado para el fondo amarillo claro del título */
+    body {
+      background-color: #FFFF99; /* Amarillo claro */
+    }
+
+    /* Estilo personalizado para centrar el título */
+    .titulo-centrado {
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      color: #333; /* Texto negro sobre fondo amarillo claro */
+    }
+
+    /* Estilo personalizado para el fondo rojo del encabezado de la tabla */
+    .encabezado-rojo {
+      background-color: #FF0000; /* Rojo */
+      color: white; /* Texto blanco sobre fondo rojo */
+    }
+
+    /* Estilo personalizado para las filas de la tabla */
+    .fila-azul {
+      background-color: #87CEEB; /* Azul cielo */
+    }
+
+    /* Estilo personalizado para centrar los valores en la tabla */
+    .tabla-centrada td, .tabla-centrada th {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container mt-5">
+  <h2 class="titulo-centrado">Información de la IP del Cliente</h2>
+
+  <table class="table mt-3 tabla-centrada">
+    <thead class="encabezado-rojo">
+      <tr>
+        <th scope="col">IP</th>
+        <th scope="col">País</th>
+        <th scope="col">Continente</th>
+        <th scope="col">Zona Horaria</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="fila-azul">
+        <td>192.168.0.1</td>
+        <td>Mexico</td>
+        <td>Americano</td>
+        <td>Zona Horaria UTC+1</td>
+      </tr>
+      <!-- Puedes agregar más filas con valores de muestra aquí -->
+    </tbody>
+  </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
